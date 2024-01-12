@@ -1,0 +1,1 @@
+101|customer@student.monash.edu|Monash1234|customerFname|customerLname|customerGender|customerDob|gluten,milk|9876543210|campus building2|rcx4u9|customer|3654789654136542|08/29|123|
