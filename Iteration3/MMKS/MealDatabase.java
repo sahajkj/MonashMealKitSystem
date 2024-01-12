@@ -17,7 +17,7 @@ public class MealDatabase {
 
     public MealDatabase() {
         mealList = new ArrayList<>();
-        readMealDatabase("src\\meals.txt");
+        readMealDatabase("meals.txt");
     }
 
     public ArrayList<Meal> getMealList() {
