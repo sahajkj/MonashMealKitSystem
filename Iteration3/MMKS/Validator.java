@@ -90,7 +90,7 @@ public class Validator {
                 String month = date.split("/")[1];
                 String year = date.split("/")[2];
                 if (isStringNumeric(dd)) {
-                    if (!checkRange(Integer.parseInt(dd), 1, 31))
+                    if (!checkRange(Integer.parseInt(dd), 1, 32))
                         System.out.println("Date is not valid - between 1 and 31");
                     else
                         checker--;

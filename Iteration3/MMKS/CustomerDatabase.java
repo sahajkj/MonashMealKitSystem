@@ -15,7 +15,7 @@ public class CustomerDatabase {
     CustomerDatabase()
     {
         customerList = new ArrayList<>(); //have to read from a file
-        readCustomerFile("src\\customers.txt");
+        readCustomerFile("customers.txt");
     }
 
     public ArrayList<Customer> getCustomerList() {
@@ -100,7 +100,7 @@ public class CustomerDatabase {
     private ArrayList<MealKit> readMealKitData(String customerId) {
         ArrayList<MealKit> mealKitList = new ArrayList<>();
         try {
-            FileReader inFile = new FileReader("src\\kits_" + customerId + ".txt");
+            FileReader inFile = new FileReader("kits_" + customerId + ".txt");
             Scanner scanner = new Scanner(inFile);
             while (scanner.hasNextLine()) {
                 MealKit mealKit = new MealKit();
